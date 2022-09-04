@@ -1,5 +1,5 @@
 const getElement = nodeID => {
-  if (nodeID) {
+  if (document.getElementById(nodeID)) {
     return document.getElementById(nodeID);
   } else {
     throw new Error("provide correct ID");
